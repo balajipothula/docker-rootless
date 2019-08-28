@@ -2,7 +2,7 @@
 
 # Author      : BALAJI POTHULA <balaji.pothula@techie.com>,
 # Date        : 12 August 2019,
-# Description : Installing / Compiling LuaRocks from Source Code.
+# Description : Installing docker rootless.
 
 # update package repositories.
 sudo yum -y update
