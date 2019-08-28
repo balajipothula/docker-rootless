@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Author      : BALAJI POTHULA <balaji.pothula@techie.com>,
-# Date        : 12 August 2019,
+# Date        : 28 August 2019,
 # Description : Installing docker from static binaries.
 
 # update package repositories.
