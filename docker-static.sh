@@ -2,7 +2,7 @@
 
 # Author      : BALAJI POTHULA <balaji.pothula@techie.com>,
 # Date        : 12 August 2019,
-# Description : Installing / Compiling LuaRocks from Source Code.
+# Description : Installing docker from static binaries.
 
 # update package repositories.
 sudo yum -y update
@@ -10,8 +10,6 @@ sudo yum -y update
 # prerequisite - only once.
 # installing iptables.
 sudo yum install -y iptables
-# enabling ip_tables kernel module.
-sudo modprobe ip_tables
 
 # downloading docker static binaries.
 curl -J -L https://download.docker.com/linux/static/stable/x86_64/docker-18.06.3-ce.tgz -o docker.tgz && \
