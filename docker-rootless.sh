@@ -21,8 +21,8 @@ echo "export PATH=$PATH:$HOME/bin" >> $HOME/.bashrc
 # setting docker host.
 echo "export DOCKER_HOST=unix:///run/user/1000/docker.sock" >> $HOME/.bashrc
 
-# executing  .bashrc
-source $HOME/.bashrc
-
 # starting docker with out root privilage.
 systemctl --user start docker
+
+# executing  .bashrc
+source $HOME/.bashrc
